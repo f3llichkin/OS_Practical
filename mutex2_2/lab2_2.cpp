@@ -5,7 +5,7 @@
 #include <string.h>
 #include <chrono>
 
-
+//dev by f3llichkin//Савёлов Александр
 using namespace std;
 
 pthread_mutex_t mutex;
@@ -29,7 +29,7 @@ void* first(void* arg) {
         fflush(stdout);
         sleep(1);
         }
-    	  //}
+    	  //}//dev by f3llichkin//Савёлов Александр
         status=pthread_mutex_unlock(&mutex);
         
         if(status!=0){
@@ -59,7 +59,7 @@ void* second(void* arg) {
     FlagSym* args = (FlagSym*)arg;
     while (args->flag == 0) {
     	if(pthread_mutex_trylock(&mutex)==0){
-   	 
+   	 //dev by f3llichkin//Савёлов Александр
     	for(int i=0;i<5;i++){
         putchar(args->symbol);
         fflush(stdout);
@@ -161,3 +161,4 @@ int main() {
     printf("End program\n");
     return 0;
 }
+//dev by f3llichkin//Савёлов Александр
