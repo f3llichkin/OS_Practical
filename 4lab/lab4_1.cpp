@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	printf("%s\n", argv[i]);
 	sleep(1);
 	}
-	
+	//dev by f3llichkin//Савёлов Александр
 	
 	switch(pid){
 	case -1:
@@ -24,3 +24,4 @@ int main(int argc, char* argv[])
 	}
 }
 	
+//dev by f3llichkin//Савёлов Александр
