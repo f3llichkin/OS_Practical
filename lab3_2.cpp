@@ -9,7 +9,7 @@
 #include <fcntl.h>
 #define YPMAXDOMAIN 64
 using namespace std;
-
+//dev by f3llichkin//Савёлов Александр
 pthread_mutex_t mutex;
 
 static pthread_barrier_t barrier;
@@ -56,7 +56,7 @@ void* first(void* arg) {
         return (void*)12;
         }
         sleep(1);
-        
+        //dev by f3llichkin//Савёлов Александр
     }
     cout << "End first thread" << endl;
     status = pthread_barrier_wait(&barrier);
@@ -209,4 +209,4 @@ int main() {
     }
     printf("End program\n");
     return 0;
-}
+}//dev by f3llichkin//Савёлов Александр
