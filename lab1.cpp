@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <chrono>
-
+//dev by f3llichkin//Савёлов Александр
 
 using namespace std;
 
@@ -73,4 +73,4 @@ int main() {
         printf("exitcode = %p\n", exitcode);
     printf("End program\n");
     return 0;
-}
+} //dev by f3llichkin//Савёлов Александр
