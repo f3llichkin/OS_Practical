@@ -4,7 +4,7 @@
 #include <sys/stat.h>
 #include <semaphore.h>
 using namespace std;
-
+//dev by f3llichkin//Савёлов Александр
 int main()
 { 
 	FILE *filename;
@@ -61,3 +61,4 @@ int main()
 	printf("Program 2 ended\n");
 	return 0;
 }
+//dev by f3llichkin//Савёлов Александр
