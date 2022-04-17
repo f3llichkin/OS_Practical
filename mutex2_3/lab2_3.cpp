@@ -5,7 +5,7 @@
 #include <string.h>
 #include <chrono>
 
-
+//dev by f3llichkin//Савёлов Александр
 using namespace std;
 
 pthread_mutex_t mutex;
@@ -57,7 +57,7 @@ void* first(void* arg) {
     
     pthread_exit((void*)1);
 }
-
+//dev by f3llichkin//Савёлов Александр
 void* second(void* arg) {
     int status=1;
     cout << "Start second thread" << endl;
@@ -137,7 +137,7 @@ int main() {
     getchar();
     cout << "Enter is pressed" << endl;
     //int* exitcode;
-	
+	//dev by f3llichkin//Савёлов Александр
     arg1.flag = 1;
     
     arg2.flag = 1;
@@ -170,4 +170,4 @@ int main() {
     }
     printf("End program\n");
     return 0;
-}
+}//dev by f3llichkin//Савёлов Александр
