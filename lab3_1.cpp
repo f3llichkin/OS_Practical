@@ -1,7 +1,7 @@
 #include <iostream>
 #include <pthread.h>
 #include <unistd.h>
-#include <stdio.h>
+#include <stdio.h>//dev by f3llichkin//Савёлов Александр
 #include <string.h>
 #include <chrono>
 #include <netdb.h>
@@ -207,3 +207,4 @@ int main() {
     printf("End program\n");
     return 0;
 }
+//dev by f3llichkin//Савёлов Александр
