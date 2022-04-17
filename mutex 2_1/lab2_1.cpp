@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <chrono>
-
+//dev by f3llichkin//Савёлов Александр
 
 using namespace std;
 
@@ -111,7 +111,7 @@ int main() {
     if (error != 0) {
         cout << "in First thread create error:" << error << endl;
         return 1;
-    }
+    }//dev by f3llichkin//Савёлов Александр
     error = pthread_create(&id2, NULL, second, &arg2);
     if (error != 0) {
         cout << "in Second thread create error:" << error << endl;
@@ -141,7 +141,7 @@ int main() {
         printf("error wait barrier in main thread with status = %d\n", error);
         return 4;
     }
-    
+    //dev by f3llichkin//Савёлов Александр
     //error = pthread_join(id1, (void**)&exitcode);
     
     //if (error != 0){
